@@ -1,3 +1,4 @@
+package 'emacs'
 package 'tree' do
   action:install
 end
@@ -15,6 +16,3 @@ end
 
 package 'git'
 
-service 'ntpd' do
-  action [:enable, :start]
-end
